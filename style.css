@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --font01: 'Share Tech Mono';
+    --font02: 'DM Sans'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://img.odcdn.com.br/wp-content/uploads/2022/11/futebol-tecnologia.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--font01);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main {
+}
+
+section {
+    margin-top: 10vh;
+    margin-left: 10vh;
+    line-height: 2em;
+}
+
+section > h1 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+section > h2 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+section > p {
+    font-size: 15px;
+    width: 50vh;
+    color: white;
+    font-family: var(--font02);
+    line-height: 1.6em;
+}
+
+section > a {
+    color: black;
+    background-color: aqua;
+
+    font-family: var(--font01);
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 2em;
+    line-height: 3em;
+    padding: 10px;
+
+    border-radius: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 2vh;
+    margin-top: 15vh;
+    background-color: black;
+}
+
+footer > p {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer > p, a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1,5em;
+}
